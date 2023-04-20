@@ -13,7 +13,6 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Rochester';
     font-size: 62.5%;
     font-size: 10px;
 }
@@ -28,6 +27,8 @@ body {
     position: fixed;
     line-height: 65px;
     text-align: center;
+    background: #dbb56d;
+    border-bottom: black;
 }
 
 .nav div.logo {
@@ -37,15 +38,6 @@ body {
     padding-left: 3rem;
 }
 
-.nav div.logo a {
-    text-decoration: none;
-    color: #122620;
-    font-size: 2.5rem;
-}
-
-.nav div.logo a:hover {
-    color: #D6AD60;
-}
 
 .nav div.main_list {
     height: 65px;
@@ -76,31 +68,8 @@ body {
 }
 
 .nav div.main_list ul li a:hover {
-    color: #D6AD60;
+    color: #ffffff;
 }
-
-
-/* Home section */
-
-.home {
-    width: 100%;
-    height: 15vh;
-    background: #F4EBD0;
-    background-position: center top;
-	background-size:cover;
-}
-
-.navTrigger {
-    display: none;
-}
-
-.nav {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    -webkit-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-}
-
 
 /* Media qurey section */
 
@@ -116,6 +85,10 @@ body {
     }
     .nav div.logo {
         margin-left: 15px;
+        font-family: 'Great Vibes';
+    }
+    .logoname {
+        font-family: 'Great Vibes';
     }
     .nav div.main_list {
         width: 100%;
@@ -348,4 +321,32 @@ body {
 .affix {
     padding: 0;
     background-color: #111;
+}
+
+/* about me section*/
+
+.aboutheader {
+    font-size: 80px;
+    font-family: 'Great Vibes';
+    padding-top: 30px;
+    text-align: center;
+    color: #D6AD60;
+}
+
+.abouttxt {
+    font-size: 17px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+}
+
+.name {
+    color: #92640f;
+    
+}
+
+.about {
+    background: #f8f1da;
+    padding-top: 100px;
 }
