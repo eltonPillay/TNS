@@ -1,3 +1,5 @@
+/* ******* glow effect ******** */
+
 .block {
     position: relative;
     margin: 10% auto;
@@ -35,3 +37,9 @@
     filter: blur(40px);
     opacity: 0;
 }
+
+
+
+/* gallery markup*/
+
+https://swiffyslider.com/configuration/?slider-item-reveal=slider-item-reveal&slider-nav-animation=slider-nav-animation&slider-nav-animation-style=slider-nav-animation-slideup&slider-nav-animation-speed=slider-nav-animation-slow&preview-style=preview-images
