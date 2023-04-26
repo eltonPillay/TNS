@@ -65,3 +65,43 @@ body {
     
     padding: 25px;
 }
+
+/* Glow effect on images */
+
+.block {
+    position: relative;
+    margin: 10% auto;
+    width: 50%;
+    height: 100%;
+    
+}
+
+.glow::before, .glow::after {
+    content: "";
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    background: linear-gradient(45deg, #FCC201, #BB890E, #CDA646);
+    background-size: 400%;
+    width: calc(100% + 2px);
+    height: calc(100% + 5px);
+    z-index: -1;
+    animation: animate 35s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.glow::after {
+    filter: blur(150px);
+    opacity: 0.8;
+}
