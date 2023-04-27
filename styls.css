@@ -17,6 +17,7 @@ body {
     font-size: 10px;
     height: 100%;
     background-image: url(pics/background-patterns-cream-texture-wallpaper-preview.jpg);
+    background-size: cover;
 }
 
 
@@ -36,6 +37,7 @@ body {
     font-family: 'Great Vibes';
     text-align: center;
     color: #e09d1f;
+    text-decoration: underline;
 }
 
 .abouttxt {
@@ -61,47 +63,12 @@ body {
 
 .about, 
 .wwd,
-.container {
+.container,
+.gal {
     
-    padding: 25px;
+    padding: 40px;
 }
 
-/* Glow effect on images */
-
-.block {
-    position: relative;
-    margin: 10% auto;
-    width: 50%;
-    height: 100%;
-    
-}
-
-.glow::before, .glow::after {
-    content: "";
-    position: absolute;
-    left: -2px;
-    top: -2px;
-    background: linear-gradient(45deg, #FCC201, #BB890E, #CDA646);
-    background-size: 400%;
-    width: calc(100% + 2px);
-    height: calc(100% + 5px);
-    z-index: -1;
-    animation: animate 35s linear infinite;
-}
-
-@keyframes animate {
-    0% {
-        background-position: 0 0;
-    }
-    50% {
-        background-position: 400% 0;
-    }
-    100% {
-        background-position: 0 0;
-    }
-}
-
-.glow::after {
-    filter: blur(150px);
-    opacity: 0.8;
+.imgsha {
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 }
