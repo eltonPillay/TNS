@@ -79,11 +79,12 @@ body {
 
 
 .galsec {
-    width: 50%;
+    width: 840px;
+    
     margin: 0% auto;
 }
 
 .d-block {
+    height: 530px;
     
-    height: 550px;
 }
