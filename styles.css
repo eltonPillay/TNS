@@ -65,7 +65,8 @@ body {
 .about, 
 .wwd,
 .container,
-.gal {
+.gal,
+.testdiv {
     
     padding: 40px;
 }
@@ -77,8 +78,7 @@ body {
 /* Gallery section*/
 
 
-.carousel-inner {
+.galsec {
     width: 80%;
-    height: 70%;
-    margin: 0 auto;
+    margin: 0% auto;
 }
