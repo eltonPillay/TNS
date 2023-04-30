@@ -25,10 +25,21 @@ body {
 
 /* Navbar section */
 
+.navbar{
+    position:fixed;
+    width:100%;
+    z-index: 1000000;
+    top:0;
+}
+
+
 .navcon {
     background: #b07301 !important;
 }
-
+.navlogo {
+    width: 150px;
+    
+}
 
 
 /* about me section*/
@@ -61,6 +72,10 @@ body {
     
 }
 
+.about {
+    margin-top: 50px;
+}
+
 .about, 
 .wwd,
 .container,
@@ -75,12 +90,12 @@ body {
 }
 
 .contact {
-    background-color: #b07301;
+    background-color: #edd6ac;
     height: 100%;
 }
 
 .contact h2 {
-    color: white;
+    color: #e09d1f;
     font-size: 50px;
     font-family: 'Great Vibes';
     padding-top: 30px;
