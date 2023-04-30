@@ -26,7 +26,7 @@ body {
 /* Navbar section */
 
 .navcon {
-    background: #92640f !important;
+    background: #b07301 !important;
 }
 
 
@@ -67,8 +67,8 @@ body {
 .container,
 .gal,
 .testdiv {
-    
     padding: 40px;
+    padding-top: 60px;
 }
 
 .imgsha {
@@ -87,4 +87,13 @@ body {
 .d-block {
     height: 530px;
     
+}
+
+
+
+/* testimonials */
+
+.revsec {
+    width: 680px;
+    margin: 0% auto;
 }
