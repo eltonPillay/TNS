@@ -13,8 +13,7 @@ html,
 body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-size: 62.5%;
+    font-size: 100%;
     font-size: 10px;
     height: 100%;
     background-image: url(pics/background-patterns-cream-texture-wallpaper-preview.jpg);
@@ -47,7 +46,7 @@ body {
 /* about me section*/
 
 .maintxt {
-    font-size: 80px;
+    font-size: 6.5rem;
     font-family: 'Great Vibes';
     text-align: center;
     color: #e09d1f;
@@ -55,7 +54,7 @@ body {
 }
 
 .abouttxt {
-    font-size: 17px;
+    font-size: 1.5rem;
     text-align: center;
 }
 
@@ -72,17 +71,15 @@ body {
 
 }
 
-.about {
-    margin-top: 50px;
-}
+
 
 .about,
 .wwd,
 .container,
 .gal,
 .testdiv {
-    padding: 40px;
-    padding-top: 60px;
+    margin-top: 50px;
+    padding-top: 40px;
 }
 
 .imgsha {
@@ -98,22 +95,17 @@ body {
 
 
 .galsec {
-    width: 840px;
-
+    width: 81%;
     margin: 0% auto;
 }
 
-.d-block {
-    height: 530px;
-
-}
 
 
 
 /* testimonials */
 
 .revsec {
-    width: 680px;
+    width: 60%;
     margin: 0% auto;
 }
 
